@@ -1,0 +1,19 @@
+{
+  "name": "cubonode",
+  "version": "1.0.0",
+  "description": "Primer Proyecto Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abassoman/CuboNode.git"
+  },
+  "author": "Alan Basso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abassoman/CuboNode/issues"
+  },
+  "homepage": "https://github.com/abassoman/CuboNode#readme"
+}
