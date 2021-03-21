@@ -1,4 +1,10 @@
 const Cubo = require('./cubo.js');
 console.log('Proyecto Cubo');
-let cubo1 = new Cubo.Cubo('a',2,3);
-console.log('volumen : '+ cubo1.volumen());
+let cubo1 = new Cubo.Cubo('a',"abc",'c');
+console.log('volumen 1 : '+ cubo1.volumen());
+let cubo2 = new Cubo.Cubo('1',"2",'3');
+console.log('volumen 2 : '+ cubo2.volumen());
+let cubo3 = new Cubo.Cubo(2,3,4);
+console.log('volumen 3 : '+ cubo3.volumen());
+let cubo4 = new Cubo.Cubo(5);
+console.log('volumen 4 : '+ cubo4.volumen());
