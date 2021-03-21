@@ -7,6 +7,14 @@ class Cubo{
     volumen(){
         return this.ladoA * this.ladoB * this.ladoC;
     }
+    limitacion(){
+        if (this.ladoA.charAt(),this.ladoB.charAt(),this.ladoC.charAt()) {
+            return 1;
+        }
+        else if(this.ladoA.charAt(),this.ladoB.charAt(),this.ladoC.charAt()){
+            return 1;
+        }
+    }
 }
 
 module.exports = {
